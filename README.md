@@ -1,7 +1,7 @@
 # De Laatste Downer
 A little project i did for VanOns.
 
-## Installation
+## Development environment
 ```
 $ npm install
 ```
