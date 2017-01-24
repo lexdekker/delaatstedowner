@@ -1,0 +1,24 @@
+body {
+  font-family: 'gotham-book', 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+// Classes
+.container {
+  max-width: 960px;
+}
+
+.form-control,
+.btn {
+  font-size: 16px;
+}

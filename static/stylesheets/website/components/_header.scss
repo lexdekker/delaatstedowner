@@ -1,0 +1,31 @@
+.c-header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 1;
+  padding: 16px 15px;
+  .e-list {
+    color: $color-white;
+    margin: 0;
+    padding: 0;
+    &.v-left {
+      float: left;
+    }
+    &.v-right {
+      float: right;
+    }
+    li {
+      display: inline-block;
+      list-style-type: none;
+      & + li {
+        margin-left: 16px;
+      }
+      a {
+        color: $color-white;
+      }
+    }
+    .e-title {
+      text-transform: uppercase;
+    }
+  }
+}
